@@ -6,10 +6,10 @@ import json
 async def launch_web_ui(update: Update, callback: CallbackContext):
     # For now, we just display google.com...
     kb = [
-        [KeyboardButton("Show me my website", web_app=WebAppInfo("https://ikerlopez11.github.io/QuinielaSindic/"))]
+        [KeyboardButton("Show me my website", web_app=WebAppInfo("https://s1nd1c.github.io/Quiniela/"))]
     ]
     await update.message.reply_text("Let's do this...", reply_markup=ReplyKeyboardMarkup(kb))
-ZZ
+
 
 if __name__ == '__main__':
     # when we run the script we want to first create the bot from the token:
